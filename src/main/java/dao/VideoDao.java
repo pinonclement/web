@@ -1,6 +1,6 @@
-package videos.dao;
+package dao;
 
-import videos.model.Video;
+import model.Video;
 
 public interface VideoDao {
 	

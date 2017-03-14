@@ -1,4 +1,4 @@
-package videos.model;
+package model;
 
 import java.util.Date;
 

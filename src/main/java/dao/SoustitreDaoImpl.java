@@ -1,10 +1,10 @@
-package soustitre.dao;
+package dao;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import soustitre.model.Soustitre;
+import model.Soustitre;
 @Repository("SoustitreDao")
 public class SoustitreDaoImpl implements SoustitreDao {
 

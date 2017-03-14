@@ -1,8 +1,8 @@
-package soustitre.dao;
+package dao;
 
 import java.util.List;
 
-import soustitre.model.Soustitre;
+import model.Soustitre;
 
 public interface SoustitreDao {
 	

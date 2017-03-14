@@ -1,9 +1,8 @@
-package note.dao;
+package dao;
 
 import java.util.List;
 
-import note.model.Note;
-
+import model.Note;
 
 public interface NoteDao {
 	

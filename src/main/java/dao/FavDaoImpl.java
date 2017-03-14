@@ -1,14 +1,27 @@
-package fav.dao;
+package dao;
+
+
 
 import java.util.List;
 
+import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 
-import fav.model.Fav;
-import user.model.User;
+import model.Fav;
+import model.User;
+import model.Video;
+
 
 @Repository("FavDao")
-public class FavDaoImpl implements FavDao{
+public class FavDaoImpl  implements FavDao{
+
+
+
+	@Override
+	public void delete(Fav fav) {
+	
+		
+	}
 
 	@Override
 	public void insert(Fav fav) {
@@ -16,11 +29,7 @@ public class FavDaoImpl implements FavDao{
 		
 	}
 
-	@Override
-	public void delete(Fav fav) {
-		// TODO Auto-generated method stub
-		
-	}
+
 
 	@Override
 	public List<User> findbyVideo() {
@@ -29,7 +38,7 @@ public class FavDaoImpl implements FavDao{
 	}
 
 	@Override
-	public List<Videos> findbyUser() {
+	public List<Video> findbyUser() {
 		// TODO Auto-generated method stub
 		return null;
 	}

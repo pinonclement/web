@@ -1,4 +1,4 @@
-package soustitre.model;
+package model;
 
 import javax.persistence.*;
 

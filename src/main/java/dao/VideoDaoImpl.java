@@ -1,8 +1,8 @@
-package videos.dao;
+package dao;
 
 import org.springframework.stereotype.Repository;
 
-import videos.model.Video;
+import model.Video;
 
 @Repository("VideoDao")
 public class VideoDaoImpl implements VideoDao {

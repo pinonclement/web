@@ -1,12 +1,12 @@
-package note.dao;
+package dao;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import note.model.Note;
+import model.Note;
 @Repository("NoteDao")
-public class NoteDaoImpl implements NoteDao {
+public class NoteDaoImpl  implements NoteDao {
 
 	@Override
 	public void insert(Note note) {
