@@ -34,16 +34,7 @@ public class UserDaoImpl implements UserDao{
 	@Override
 	public void delete(User user) {
 		Connection con=ConnectionProvider.getCon();  
-		PreparedStatement ps=con.prepareStatement("insert into User values(?,?,?)");
-		query.setString("ssn", ssn)
-		ps.setInt(1,u.getUserid());  
-		ps.setString(2,u.getMotdepasse());  
-		ps.setString(3,u.getPseudo()); 
-		ps.setBoolean(4,u.getIsadmin());
-		ps.setDate(5,(java.sql.Date) u.getDateinscription());    
-		status=ps.executeUpdate();  
-		}catch(Exception e){}  
-		// TODO Auto-generated method stub
+		
 		
 	}
 

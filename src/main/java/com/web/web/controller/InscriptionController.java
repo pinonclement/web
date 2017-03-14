@@ -5,8 +5,6 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import user.model.User;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 
