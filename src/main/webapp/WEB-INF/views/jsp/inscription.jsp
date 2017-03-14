@@ -51,7 +51,7 @@
 
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
                  <spring:url value="/resources/core/picture/gudetama.png" var="gudetamapng" />
-        
+
 				<center><img  src="${gudetamapng}" alt="gudetama" align="middle" style="width:482px;height:169px;"></center>
             <div class="container">
 
@@ -112,15 +112,15 @@
                                 <div class="span10 offset1">
                                     <h1>Créer votre compte</h1>
                                     <section class="webdesigntuts-workshop">
-	<form action="" method="">		    
-		<input type="search" placeholder="pseudo..">	
-			<input type="search" placeholder="adresse mail..">		
-	<input type="search" placeholder="mot de passe..">
-	<input type="search" placeholder="confirmation mot de passe..">
-
+	<form action="process.jsp">		    
+	<input name="name" type="text" placeholder="pseudo..">	
+	<input  name="mail" type="text" placeholder="adresse mail..">		
+	<input  name="pass" type="password" placeholder="mot de passe..">
+	<input  name="pass2" type="password" placeholder="confirmation mot de passe..">
+ 		<input type="submit" value ="envoyer" name="envoyer2" action="doPost()">
 	</form>
 </section>
-                                    <a href="#" class="btn">envoyer</a>
+                                   
 
 
 
